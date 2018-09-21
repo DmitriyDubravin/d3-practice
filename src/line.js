@@ -5,10 +5,10 @@ export default class Line extends Component {
     componentDidMount() {
         const line = d3
             .line()
-            .curve(d3.curveCardinal);
+            // .curve(d3.curveCardinal);
             // .curve(d3.curveLinear);
             // .curve(d3.curveCatmullRom);
-            // .curve(d3.curveStep);
+            .curve(d3.curveStep);
             
 
         const data = [
