@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Donut from './donut';
 import Line from './line';
+import RadialLine from './radialLine';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
       <div className="App">
         <Donut />
         <Line />
+        <RadialLine />
       </div>
     );
   }
