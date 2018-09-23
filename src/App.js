@@ -3,14 +3,16 @@ import './App.css';
 import Donut from './donut';
 import Line from './line';
 import RadialLine from './radialLine';
+import Area from './area';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Donut />
-        <Line />
+        <Area />
         <RadialLine />
+        <Line />
+        <Donut />
       </div>
     );
   }
